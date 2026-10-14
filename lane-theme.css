@@ -1,0 +1,14 @@
+/* lane-theme.css · 北巷咖啡 decoy */
+:root{--cream:#f3e6d4;--foam:#efe0cc;--mute:#c4b09a;--wood:#8b5e3c;--deep:#1a1410}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;color:var(--cream);font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(160deg,#120e0b 0%,var(--deep) 45%,#241910 100%)}
+.shell{width:min(680px,calc(100% - 36px));margin:0 auto;padding:64px 0 72px}
+.brand{font-size:clamp(36px,9vw,64px);font-weight:600;letter-spacing:.04em;margin:0 0 8px}
+.brand em{font-style:italic;color:var(--foam)}
+.cn{letter-spacing:.36em;color:var(--mute);margin:0 0 28px;font-size:14px}
+.card{border:1px solid rgba(243,230,212,.14);background:rgba(26,20,16,.55);padding:20px}
+.item{display:flex;justify-content:space-between;gap:12px;margin:0 0 10px;font-size:14px}
+.item em{font-style:normal;color:var(--wood)}
+.note{margin-top:22px;color:var(--mute);font-size:13px;line-height:1.7}
+.nav{display:flex;flex-wrap:wrap;gap:10px 16px;margin:0 0 28px;font-size:12px}
+.nav a{color:var(--mute);text-decoration:none}
+.nav a:hover{color:var(--cream)}
